@@ -8,6 +8,7 @@ html {
 body {
   margin: 0px;
   background-image: url(images/pozadie.jpg);
+  background-repeat: no-repeat;
 }
 
 .menu {
