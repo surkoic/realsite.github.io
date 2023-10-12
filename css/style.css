@@ -1,0 +1,269 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+body {
+  margin: 0px;
+  background-image: url(images/pozadie.jpg);
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+table {
+  color: black;
+  text-shadow: none;
+  border-collapse: collapse;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+th,
+td {
+  color: black;
+  text-shadow: none;
+  border: 1px solid black;
+
+  padding: 8px;
+}
+
+.menu_li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.menu_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.menu_li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.jo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.imageIndex {
+  position: absolute;
+  top: 91px;
+  margin-left: 47%;
+  zoom: 75%
+}
+
+.textIndex {
+  margin-right: 70%;
+  font-size: 130%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.profile {
+  text-align: center;
+}
+
+
+.nsba_bar{
+  margin-top: 10px;
+}
+
+progress {
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 70%;
+  height: 24px;
+  width: 700px;
+  border: 1px solid #000000;
+}
+progress::before {
+  content: "I have :" attr(value) "EC's" ;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+progress::-webkit-progress-bar {
+  background-color: #555;
+}
+progress::-webkit-progress-value {
+  background-color: #04AA6D;
+}
+
+.boy{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.textPro{
+  margin-left:-120px;
+}
+
+.imageSlovakiaArr{
+  margin-right: auto;
+  font-size: 130%;
+  padding: 10px;
+  margin-top: 40px;
+  height:300px;
+  width:300px;
+}
+
+.imageSlovakiaCir{
+  margin-right: auto;
+  font-size: 130%;
+  padding: 10px;
+  margin-top: 40px;
+  height:300px;
+  width:4 00px;
+}
+
+.textMP{
+  margin-left:30px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 60px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  margin-top: 60px;
+  position: sticky;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.blog-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 10px;
+  margin-top: 700px;
+}
+
+/* Styling for the article boxes */
+.article-box {
+  width: 1000px;
+  height: 300px; 
+  background-color: #04AA6D;
+  border: 4px solid #333;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+
+/* Style for the article titles */
+.article-title {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+/* Style for the article links */
+.article-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+.article-link:hover {
+  color: white;
+}
+
+
+.faq{
+  padding:10px; 
+  margin-top:40px;
+  position: sticky;
+}
