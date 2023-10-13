@@ -73,6 +73,10 @@ td {
   margin-left: 10%;
 }
 
+.je {
+  position: sticky;
+}
+
 .imageIndex {
   position: sticky;
   top: 91px;
@@ -295,7 +299,7 @@ progress::-webkit-progress-value {
 .divHeader {
   padding: 10px;
   margin-top: 40px;
-  position: sticky;
+  position: static;
 }
 
 #fac {
@@ -307,6 +311,13 @@ progress::-webkit-progress-value {
   margin-top: 50px;
 }
 
-a{
+a {
   color: white;
+}
+
+.textB {
+  position: sticky;
+  font-size: 130%;
+  padding: 10px;
+  margin-top: 40px;
 }
