@@ -73,6 +73,10 @@ td {
   margin-left: 10%;
 }
 
+.table{
+  position: sticky;
+  margin-top: 60px;
+}
 
 
 .imageIndex {
