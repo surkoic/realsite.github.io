@@ -73,9 +73,7 @@ td {
   margin-left: 10%;
 }
 
-.je {
-  position: sticky;
-}
+
 
 .imageIndex {
   position: sticky;
@@ -319,5 +317,5 @@ a {
   position: sticky;
   font-size: 130%;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
